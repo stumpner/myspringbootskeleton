@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="page :: header"></div>
+
+<body>
+
+<div th:replace="page :: navbar"></div>
+
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h1>Success</h1>
+            <p th:text="'id: ' + ${record.id}" />
+            <p th:text="'name: ' + ${record.name}" />
+            <a href="/list">Go to list</a>
+
+        </div>
+    </div>
+</div>
+
+<div th:replace="page :: footer"></div>
+</body>
+</html>
