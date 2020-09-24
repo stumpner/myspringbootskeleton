@@ -18,4 +18,4 @@ Feel free to use this skeleton for building your own web application.
 
 This project is licensed under the Apache 2 License - see the LICENSE file for details
 
-Copyright 2018 by Franz STUMPNER (franz@stumpner.com)
+Copyright 2020 by Franz STUMPNER (franz@stumpner.com)
